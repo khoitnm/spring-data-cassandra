@@ -17,6 +17,7 @@
 	<bean id="adminTemplate" autowire="constructor" class="org.springframework.data.cassandra.core.CassandraAdminTemplate"></bean>
 	
 	<!-- REQUIRED: The Cassandra Cluster -->
+	
 	<cassandra:cluster 
 		contact-points="${cassandra.contactpoints}"
 		port="${cassandra.port}"

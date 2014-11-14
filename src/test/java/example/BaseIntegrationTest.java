@@ -13,8 +13,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import example.domain.Event;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-//@ContextConfiguration(classes = CassandraConfiguration.class)
-@ContextConfiguration(locations = { "/example/xmlconfig/CassandraConfig.xml"})
+@ContextConfiguration(classes = CassandraConfiguration.class)
+//@ContextConfiguration(locations = { "/example/xmlconfig/CassandraConfig.xml"})
 public abstract class BaseIntegrationTest {
 
     @Autowired
